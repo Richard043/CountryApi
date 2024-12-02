@@ -11,8 +11,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Local JSON file path
-# LOCAL_JSON_FILE = "R:/Experiments/Testing stuff/debugcountry/all_countries.json"
-LOCAL_JSON_FILE = "all_countries.json"
+LOCAL_JSON_FILE = "R:/Experiments/Testing stuff/debugcountry/all_countries.json"
+# LOCAL_JSON_FILE = "all_countries.json"
 
 # Function to load data from the local file
 def load_local_data():
